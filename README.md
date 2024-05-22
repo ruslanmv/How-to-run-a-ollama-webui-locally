@@ -82,18 +82,24 @@ To start the application, use the following command:
 ```bash
 python run.py
 ```
-
+![](assets/2024-05-22-16-41-32.png)
 Once the application is running, you can access it in your web browser at:
 
-```bash
-http://127.0.0.1:1338
-```
+
+[http://127.0.0.1:1338](http://127.0.0.1:1338)
+
 
 or
 
-```bash
-http://localhost:1338
-```
+[http://localhost:1338](http://localhost:1338)
+
+![](assets/2024-05-22-16-44-15.png)
+
+## Change models
+In the booton of  the webapp there is 
+![](assets/2024-05-22-16-45-48.png)
+and
+![](assets/2024-05-22-16-47-48.png)
 
 ## Using Docker 🐳
 
@@ -119,15 +125,12 @@ docker run -p 1338:1338 ruslanmv/ollama-webui
 
 Access the application in your web browser at:
 
-```bash
-http://127.0.0.1:1338
-```
+[http://127.0.0.1:1338](http://127.0.0.1:1338)
+
 
 or
 
-```bash
-http://localhost:1338
-```
+[http://localhost:1338](http://localhost:1338)
 
 When you're done using the application, you can stop the Docker container with the following command:
 
