@@ -158,6 +158,12 @@ To run Ollama directly from the terminal, follow these steps:
 
 2. **Run the Model:**
    Use a Python script or an interactive Python session to load and interact with the model. For example:
+   ```
+   python ruslanmv.py Hello how are you
+   ```
+![](assets/2024-05-22-16-27-15.png)
+
+   or if you want customize you own code you can  use:
 
    ```python
     import ollama
@@ -176,7 +182,7 @@ To run Ollama directly from the terminal, follow these steps:
     print(response)
    ```
 
-3. **Ensure Dependencies are Met:**
+1. **Ensure Dependencies are Met:**
    Ensure you have all necessary dependencies installed, including the specific model files and any required libraries.
 
 While this method requires a bit more setup and knowledge of Python programming, it offers greater flexibility and can be integrated into various workflows or applications without relying on a web browser.
